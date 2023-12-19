@@ -1,0 +1,43 @@
+body{
+    background-color: burlywood;
+    padding: 30px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accordian{
+    background-color:white;
+    padding:20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 5px 10px 5px rgb(96, 93, 93);
+    width:50%;
+    height: 50%;
+}
+
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon{
+  margin-right: 30px;
+}
+
+.iactive{
+ transform: rotate(-180deg);
+}
+
+.content{
+    color:rgb(88, 88, 89);
+  max-height: 0;
+  overflow: hidden;
+}
+
+.cactive{
+  max-height: fit-content;
+}
